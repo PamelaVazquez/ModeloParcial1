@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h3{
+    text-decoration-line: underline;
+    text-align: center;
+    color: blue;
+}
+
+.titulo{
+    color: rgb(7, 143, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 20px;
+}
+
+section{
+    border-top-color: gray;
+    border-top-style: solid;
+    border-right-color: gray;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-bottom-style: solid;
+    padding: 30px;
+}
+.columnas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columnas article{
+    width: calc(50% - 2em);
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.formulario input{
+    display: block;
+    width: 100%;
+    font-size: medium;
+    margin: 10px;
+}
+
+.formulario label{
+    display: block;
+}
+
+.campos{
+    border: red dotted;
+    border-radius: 15%;
+}
+
+.boton-enviar{
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px;
+    border-radius: 30%;
+    margin-top: 10px;
+    
+}
+/*section{
+    border: 10px solid blue;
+    padding: 10px;
+}*/
+
